@@ -140,7 +140,7 @@ not use.
 modules. Both should depend on abstractions.
 
 -   AddressRepository: Defined for interacting with
-    AddressRepositoryServices class, promoting abstraction and
+    AddressRepositoryServices class, resulting in abstraction and
     flexibility.
 
 -   CartOperations: Represents operations for CartServices class,
