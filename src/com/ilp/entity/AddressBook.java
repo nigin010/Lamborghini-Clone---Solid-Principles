@@ -5,7 +5,8 @@ import com.ilp.interfaces.AddressRepository;
 import java.util.List;
 
 public class AddressBook {
-    private AddressRepository addressRepository;
+
+    private final AddressRepository addressRepository;
 
     public AddressBook(AddressRepository addressRepository) {
         this.addressRepository = addressRepository;
@@ -18,5 +19,4 @@ public class AddressBook {
     public List<Address> getAddresses() {
         return addressRepository.getAllAddresses();
     }
-
 }
